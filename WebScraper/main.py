@@ -13,6 +13,19 @@ from concurrent.futures import ThreadPoolExecutor
 options = Options()
 options.headless = True  # Change to True to run in headless mode
 
+# There is too much going on in this file, scrapingm creating DB, adding records to the DB.
+# try to Follow the SOLID principals
+# create a file to just scrape the pages
+# create a file to do the DB stuff
+# create a class called disc that will get from the scraper and can be used in the DB 
+# use main to get records from the scraper and add to the DB
+# main..
+# while disc =  sraper.getNextDisc!= null
+#    disc = 
+#    DB.insert(disc)
+
+
+
 
 def get_discs_from_page(page_number):
     url = f"https://www.pdga.com/technical-standards/equipment-certification/discs?page={page_number}"
