@@ -4,51 +4,55 @@ from tkinter import messagebox, Listbox, Scrollbar, END
 
 
 def execute_query():
-    manufacturer_input = manufacturer_entry.get()
-    model_input = model_entry.get()
+    manufacturer_input = manufacturer_entry.get().strip()
+    model_input = model_entry.get().strip()
 
-    if not manufacturer_input:
-        messagebox.showerror("Input Error", "Manufacturer is required.")
+    if not manufacturer_input and not model_input:
+        messagebox.showerror("Input Error", "Either Manufacturer or Model is required.")
         return
-
+    conn = sqlite3.connect('discs.db')
+    cursor = conn.cursor()
     try:
-        conn = sqlite3.connect('discs.db')
-        cursor = conn.cursor()
 
-        with open('discs.sql', 'r') as sql_file:
-            sql_script = sql_file.read()
+        # Prepare the query with optional filtering
+        query = "SELECT * FROM discs WHERE TRUE"
+        params = []
 
-        cursor.executescript(sql_script)
-
-        query = "SELECT * FROM discs WHERE manufacturer LIKE ?"
-        params = [f'%{manufacturer_input}%']
+        if manufacturer_input:
+            query += " AND \"Manufacturer\" LIKE ?"
+            params.append(f'%{manufacturer_input}%')
 
         if model_input:
-            query += " AND model LIKE ?"
+            query += " AND \"Model\" LIKE ?"
             params.append(f'%{model_input}%')
 
-        query += " ORDER BY manufacturer, model;"
+        query += " ORDER BY \"Manufacturer\", \"Model\";"
 
         cursor.execute(query, params)
         results = cursor.fetchall()
 
-        # Clear the listbox
+        # Clear the listbox before inserting new results
         result_listbox.delete(0, END)
 
-        for row in results:
-            result_listbox.insert(END, row)
+        if results:
+            for row in results:
+                result_listbox.insert(END, f"{row[0]} - {row[1]}")
+        else:
+            messagebox.showinfo("No Results", "No matching records found.")
 
         conn.commit()
     except Exception as e:
         messagebox.showerror("Database Error", f"An error occurred: {e}")
     finally:
-        cursor.close()
-        conn.close()
+        if cursor:
+            cursor.close()
+        if conn:
+            conn.close()
 
 
 # Create the main window
 root = tk.Tk()
-root.title("SQL Query Executor")
+root.title("Disc Lookup")
 
 # Manufacturer input
 manufacturer_label = tk.Label(root, text="Enter Manufacturer:")
@@ -57,7 +61,7 @@ manufacturer_entry = tk.Entry(root)
 manufacturer_entry.grid(row=0, column=1, padx=10, pady=10)
 
 # Model input
-model_label = tk.Label(root, text="Enter Model (optional):")
+model_label = tk.Label(root, text="Enter Model:")
 model_label.grid(row=1, column=0, padx=10, pady=10)
 model_entry = tk.Entry(root)
 model_entry.grid(row=1, column=1, padx=10, pady=10)
