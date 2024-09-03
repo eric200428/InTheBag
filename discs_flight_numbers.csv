@@ -1,0 +1,925 @@
+name,speed,glide,turn,fade
+Rask,14,3,0,4
+Firestorm,14,4,-1,3
+Merlin,14,5,-1,4
+Albatross,14,6,-2,3
+Limit,14.5,3.5,0,4
+Missilen (OOP),14,3,0.5,4.5
+Delirium,14.5,5,-0.5,3
+World,14,4,-0.5,3
+Rampage,14,5,-1,4
+Dimension,14.5,5,0,3
+Bohrium,14,6,-1,3
+Ballista Pro,14,4,0,3
+Colossus,14,5,-1,3
+Catapult,14,5,-0.5,3
+Torrent,14,5,-1,2
+Lu,14,5,-1,3
+Thor,14,5,0,2
+Corvette,14,6,-1,2
+Ballista,14,5,-1,3
+Lace,14,6,-1,1
+Tantrum,14.5,5,-1.5,3
+Teleport,14.5,5,-1.5,2.5
+Raketen (OOP),15,4,-2,3
+Cannon,14,5,-3,3
+King,14,5,-1.5,3
+Knight,14,4,-1.5,3
+Relativity,14.5,5.5,-3,1.5
+Destiny,14,6,-2,3
+Excite,14.5,5.5,-2,2
+Queen,14,5,-3,2
+UnLace,14,6,-5,1
+War Horse,13,4,0,4
+Hypercane,13,4,0,4
+Nuke OS,13,4,0,4
+Tombstone,13,4,0,4
+Stiletto,13,3,0.5,5
+Adder,13,5,0,4
+Ape,13,5,0,4
+Recon,13,5,0,3
+Empire,13,5,0,4
+Kahu OS,13,4,0,4
+Solace,13,4,0,4
+D Model OS,13,5,0,4
+Gladiator,13,5,0,3.5
+Panic,13,4,-0.5,3
+Energy,13,4,0,4
+Defender,13,5,0,3
+Rive,13,5,0,3.5
+Legenda,13,4,-1,4
+Quasar,13,5,0,3
+Reverb,13,5,0,3.5
+Venom (Retooled),13,5,0,3
+Seguin,13,5,0,3
+Crockett,13,5,-1,3
+Prince,13,5,0,3
+Raider,13,5,-0.5,3
+Cutlass,13,5,0,3.5
+Giant,13,4,0,3.5
+Boss,13,5,-1,3
+Da'E,13,5,0,3
+Nuke,13,5,-1,3
+Bowie,13,5,-1,3
+Great White,13,5,-1,3
+Guld,13,5,-0.5,3
+D1 Max,13,5,-1,3
+D2 Pro,13,5,-1,3
+Strive,13,5,-1,3
+D2 Signature (Falcor),13,6,-1,2.5
+D Model S,13,6,0,2
+Groove,13,6,-2,2
+Grym (OOP),13,5,-2,2
+Slayer,13,5,-1,2
+D2 Max,13,5,-1,2
+Halo,13,5,-0.5,3
+O-Lace,13,5,-1,3
+Sheriff,13,5,-1,2
+DD2 (OOP),13,5,-2,2
+Dominator,13,5,-1,2
+Nitro,13,4,-0.5,3
+Kahu,13,5,-1,2
+Charger,13,5,-1,2
+Starship,13,6,-1,2
+Captain,13,5,-2,2
+Shryke,13,6,-2,2
+Havoc,13,5,-1,3
+Majesty,13,5,-2,2
+Tenacity,13,5,-2.5,2
+Kahu XG,13,5,-2.5,2
+Pharaoh,13,6,-1,2
+Bayonet,13,5,-2,2
+Falcon,13,5,-2,2
+D3 Max,13,5,-2,2
+Aftermath,13,5,-2,3
+Sorcerer,13,5,-0.5,3
+Crank,13,5,-2,2
+Mayhem,13,5,-1.5,2
+Octane,13,5,-1,2
+Bolt,13,6,-2,3
+BigFoot,13,6,-2,2
+Catalyst,13,5.5,-2,2
+Qi,13,6,-2,2
+DD-13 Starling,13,5,-2,2
+Rong,13,5,-3,1
+Katana,13,5,-3,3
+Yeti,13,6,-3,1
+Tempest,13,5,-3,2
+D4 Max,13,5,-3,2
+Nuke SS,13,5,-3,3
+D Model US,13,6,-3,1
+Daedalus,13,6,-3,2
+Crank SS,13,5,-3,2
+Sasquatch,13,5,-5,1
+Vulcan,13,5,-4,2
+Juggernaut,12,4,1,4
+General,12,4,0,4
+Recoil,12,4,0,3
+Slab,12,3,0,4
+Flick,12,3,1,5
+Krut,12,4,0,4
+D1,12,5,0,4
+Enforcer,12,4,0.5,4
+Scythe,12,3,0,4
+Force,12,5,0,3
+Power Disc2,12,4,0,4
+Conqueror,12,4,0,4
+Daytona,12,4,0,3
+PD2,12,4,0,4
+Spirit,12,4,0,4
+XCaliber,12,5,0,4
+Razeri,12,4,0,4
+Goat (Eternal),12,4,0,4
+Grym X (OOP),12,5,-1,3
+Speed Demon,12,5,-0.5,3
+D2,12,5,0,3
+Kotare,12,5,0,3
+Spell,12,5,0,3
+Psychic,12,5,-1,2
+Punisher,12,5,0,3
+Hurricane,12,5,-1,3
+Destroyer,12,5,-1,3
+Outlaw,12,5,-1,3
+Osprey,12,4,-1,2
+Emperor,12,5,-1,2.5
+Odin,12,5,-1,3
+Synapse,12,5,-1.5,3
+Cloudbreaker,12,5,-1,3
+Yeet,12,5,-1,3
+DD3,12,5,-1,3
+Time-Lapse,12,5,-1,3
+Realm,12,5,-1,3
+Reach,12,5,-1,3
+Zeus,12,5,-1,3
+D3,12,5,-1,3
+Trespass,12,5,-0.5,3
+Scorpius,12,5,-1,3
+Enigma,12,5,-1,2
+Orca,12,5,-1.5,2
+Warbird,12,6,-1,3
+Goat,12,4,-1,3
+Redwood,12,5,-1,2
+Salt,12,5,-1,3
+Interval,12,5,-1,2
+Supreme Trespass,12,5,-0.5,3
+Illusion,12,5,-0.5,2.5
+X2,12,5,0,2
+Sage,12,6,-1,3
+Sword,12,5,-0.5,2
+Twin Swords,12,5,-1,2
+Lawin,12,6,-3,2
+Ether,12,6,-1,2
+Racer,12,6,-1,2
+Samurai,12,5,-1.5,2
+DDx (OOP),12,6,-1,2
+Captain's Thrasher,12,5,0,2
+X3,12,6,-1,2
+Teedevil,12,5,-1,2
+Fasti,12,4,-3,4
+Paradigm,12,6,-1.5,2
+Vass,12,5,-1.5,2
+D4,12,5,-2,2
+Tern,12,6,-3,2
+Wahoo,12,6,-2,2
+Apex,12,6,-1,2
+Openwater,12,4,-1.5,2
+Wild Honey,12,5,-2,2
+X4,12,6,-2,2
+Hades,12,6,-3,2
+Cypress,12,5,-2,2
+G-One,12,6,-2,1
+Growler,12,6,-3,2
+D6,12,6,-3,2
+X5,12,6,-3,2
+Thrasher,12,5,-3,2
+Astronaut,12,6,-4,1
+Harrier,12,6,-3,2
+Sabot,11,4,0,5
+Max,11,3,0,5
+PD3 (OOP),11,3,0,5
+Machete,11,4,0,4
+Astra-X,11,5,0,4
+Phase,11,3.5,0,4
+TeeRex,11,4,0,4
+PDx (OOP),11,4,0,3
+Sergeant,11,4,0,2.5
+Pepper,11,5,0,4
+Thrill,11,4,0,3.5
+Boatman,11,5,0,2
+Pulse,11,4,0,3
+Cedar,11,5,0,3
+Animus,11,5,0,2
+Slaidi,11,3,0,3
+Flow,11,6,-0.5,2
+Wraith,11,5,-1,3
+Crush,11,5,0,4
+Longhorn,11,4,-1,2.5
+Czar,11,5,-1,3
+DD1,11,5,-1,2
+Nimitz,11,5,-1,3
+Defy,11,5,-1,3
+Grace,11,6,-1,2
+Krait,11,5,-1,2
+Surge,11,5,-1,3
+Trace,11,5,-1,2
+Photon,11,5,-1,2.5
+Ragnarok,11,5,-1,2
+Zenith,11,5,-0.5,2
+Drive,11,5,-1,2
+CD3 (OOP),11,5,-1,2
+Astra,11,5,-1,2
+Rogue,11,4,-1,1
+Squid,11,5,-1,2
+Archon,11,5,-2,2
+Surge SS,11,5,-2,2
+Mentor,11,5,-2,2
+Curl,11,5,-1,2
+Renegade,11,5,-1.5,2.5
+Scorch,11,6,-2,2
+Jun,11,5,-1,2
+Wave,11,5,-2,2
+Vibe,11,5,-2,2
+Vanilla,11,6,-2,1
+Alva,11,6,-2,2
+Journey,11.5,6,-2,1
+Mystere,11,6,-2,2
+DD,11,6,-3,2
+Wildcat,11,5,-2,3
+Vanish,11,5,-3,2
+Jet,11,5,-3,2
+Maya,11,5,-3,1
+Aries,11,6,-4,2
+Orbital,11,5,-4.5,1
+Mamba,11,6,-5,1
+Sail,11,5,-5,1
+Fighter,10,3,0,5
+F Model OS,10,5,2,4
+Criminal,10,3,1,4
+Invictus,10,4,0,3
+Hellfire,10,3,0,5
+Fortress,10,4,0,3
+H1 (V2),10,4,0,3
+F Model S,10,5,1,3
+Venom (Old Version - OOP),10,4,0,4
+Spice,10,4,0,4
+Starfire,10,4,0,3
+Avenger,10,5,0,3
+Tsunami,10,3,0,4
+Kiwi,10,4,0,4
+Fenrir,10,4,0,3
+Power Disc,10,4,0,3
+PD,10,4,0,3
+Roman,10,4,0,3
+Sampo,10,4,-1,2
+Vengeance,10,6,0,2
+Orc,10,4,-1,3
+Anax,10,6,0,3
+Nightjar,10,5,-.5,2.5
+H2 (V2),10,4,-1,3
+Vulture,10,5,0,2
+Long,10,5,-1,2
+Tara iti,10,5,0,2
+Apache (retooled),10,6,0,2
+Sapphire,10,6,-2,1.5
+H3 (V2),10,5,-1,1
+Ninja,10,6,-1,2
+Starfire L,10,5,-1,2
+Aztec,10,5,-1,2
+Musket,10,5,-0.5,2
+Laseri,10,4,-1,1
+Era,10,5,-1,1.5
+Undertow,10,4,-1,1
+Construct,10,6,-1,2
+Trail,10,5,-1,1
+Northman,10,5,-1,2
+Beast,10,5,-2,2
+CD (OOP),10,5,-1,2
+F Model US,10,5,-2,1
+Flash,10,5,-2,3
+H4 (V2),10,5,-2,1
+Wei,10,5,-2.5,2
+Gorgon,10,6,-2,1
+Gorgon (GStar),10,6,-3,1
+Avenger SS,10,5,-3,1
+H5,10,5,-3,1
+TD,10,5,-2,1
+Freetail,10,5,-4,1
+Tumbleweed,10,6,-4,1
+Monarch,10,5,-4,1
+TD2 (OOP),10,5,-4,1
+Nemesis,10,6,-4,2
+Berserker,10,5,-3,2
+H7,10,5,-4,1
+<- Tilt,9,1,1,6
+Wyrm,9,2,0,5
+Firebird,9,3,0,4
+Enemy,9,3,0,4
+Motion,9,3.5,0,4
+Draco,9,3,0,4
+Scepter,9,4,0,4
+Captain's Raptor,9,3,1,4
+Splice,9,3,0,4
+Omen,9,4,0,4
+Phoenix,9,3,0,4
+Tasmanian Devil V2,9,4,0,4
+Xenon,9,3,0,4
+Avalanche,9,3,0,4
+Sockibomb Felon,9,4,0.5,4
+Flare,9,4,0,3.5
+Pioneer,9,3,0,4
+Ahti,9,3,0,4
+Raptor,9,4,0,3
+Chupacabra,9,3,0,4
+Gecko,9,4,0,3.5
+Felon,9,3,0.5,4
+Fireball,9,3.5,0,3.5
+Predator,9,4,1,4
+FD3,9,4,0,3
+Sabertooth,9,4,0,5
+Spur,9,4,0,3
+Coalesce,9,5,0,3
+Culverin,9,5,-0.5,3
+Mammoth,9,4,-1,5
+Stal,9,4,0,3
+Blade,9,5,0,3
+FL,9,3,0,2
+Getaway,9,5,-0.5,3
+Longbowman,9,4,0,3
+Titan,9,3,0,2
+Buffalo,9,4,-1,5
+Ogopogo,9,4,-2,5
+Riptide,9,4,0,3
+Ginger,9,4,0,2
+FX-2,9,4,0,3
+Wolverine,9,5,-2,2
+Diablo,9,5,0,2
+Locust,9,4,-1,3
+Feedback,9,5,-1,3
+Talisman,9,4,0,2
+Convict,9,4,-0.5,3
+Wrath,9,4.5,-0.5,2
+Thunderbird,9,5,0,2
+Orion LF,9,5,-1,2
+Tesla,9,5,-1,2
+Honor,9,5,0,2.5
+Vanguard,9,5,0,2
+Shadowfax,9,5,-1,2.5
+Escape,9,5,-1,2
+Saint,9,7,-1,2
+Lots,9,5,-1,2
+Undertaker,9,5,-1,2
+Savant,9,5,-1,2
+Mad Cat,9,5,0,2
+Bi,9,5,-1,2
+Dynasty,9,5,-1,2
+CD1,9,5,-1,2
+Wrangler,9,5,-1,2
+Falk,9,6,-2,1
+Lift,9,5,-2,1.5
+Polaris LF (OOP),9,5,-2,2
+Spear,9,6,-2,1
+FX-3,9,5,-1,2
+Lariat,9,5,-1,1
+Diamondback,9,5,-2,2
+Hyena,9,5,-2,2
+Thread,9,5,-1,1
+Cinnamon,9,5,-1.5,2
+Viking,9,4,-1,2
+Apache (OOP),9,4,-1,2
+Vandal,9,5,-1.5,2
+Inertia,9,5,-2,2
+FX-4,9,5,-2,2
+Orion LS,9,4,-1,1
+Assassin,9,6,-1.5,1
+Insanity,9,5,-2,1.5
+Valkyrie,9,4,-2,2
+Bandit,9,5,-2,1
+Hu,9,5,-2,2
+Impulse,9,5,-3,1
+Jade,9,6,-2,1
+Hatchet,9,6,-2,1
+Sidewinder,9,5,-3,1
+TDx (OOP),9,5,-3,1
+Sphinx,9,6,-3,1
+Pekapeka,9,6,-3,1
+Mantra,9,6,-2,1
+Virus,9,5,-3.5,1
+Fury,9,6,-2,2
+Mongoose,9,5,-3,1
+Heat,9,6,-3,1
+Roadrunner,9,5,-4,1
+Flipperi,9,3,-3,0
+Reaper,8,3,0,4
+Minotaur,8,3,0,3
+Terra,8,5,0,3
+Banzai,8,4,0,3
+Torque,8,4,0,2.5
+F1,8,4,-1,3
+Talon,8,3,1,3
+Terra (Electron),8,5,-0.5,2.5
+#1 Helix,8,4,-1,3
+Abyss,8,4,0,3
+F2,8,4,-1,2
+XS,8,5,0,3
+Saint Pro,8,5,-0.5,2
+Stag,8,6,-1,2
+Shock,8,5,0,2.5
+Arch,8,5,0,2
+Teebird3,8,4,0,2
+Striker,8,5,0,2
+Pipeline,8,5,0,2
+#1 Flyer,8,5,-2,2
+Alpha,8,4,0,2
+Bear,8,6,-0.5,2.5
+Volt,8,5,-0.5,2
+FD-8 Stork,8,5,0,1
+Dos X,8,4,-1,2
+"Binx, Newcomer",8,5,0,1
+Lotus,8,5,-1,2
+Breakout,8,5,-1,1.5
+TL3,8,4,-1,1
+Phenom,8,5,-1,2
+Timberwolf,8,5,-1,1
+F3,8,5,-2,2
+Thief,8,5,-1.5,2
+Falchion (OOP),8,5,-1,2
+Passion,8,5,-1,1
+Rally,8,5,-1,1
+OG Binx,8,5,-1,1
+Amp,8,5,-1.5,1
+Rockstar,8,5,-2,1
+F5,8,6,-2,1
+Essence,8,6,-2,1
+Jackalope,8,5,-2,1
+Mantis,8,4,-2,2
+Onyx,8,6,-3,1
+Vigil,8,6,-2,2
+Trance,8,5,-2,1
+Witness,8,6,-3,1
+Xpress,8,5,-3,1
+Dragon,8,5,-2,2
+Tiyanak,8,5,-5,1
+The Dome,8,6,-3,1
+"Binx, ecoFlex",8,6,-3,1
+F7,8,6,-3,1
+Ozone,8,6,-3,1
+Nice!,8,7,-2,2
+Aquarius,8,5,-3,2
+Diamond,8,6,-3,1
+Archangel,8,6,-4,1
+Gou,8,5,-3.5,1
+F9,8,6,-4,0.5
+Function,8,6,-4,1
+Notch,7,3,0,4.5
+XXX,7,3,0,4
+Banshee,7,3,0,3
+RESPECTi,7,2,1,2
+Blaze,7,4,0,3
+Evader,7,4,0,2.5
+Spark,7,4,-0.5,3
+Tyrant,7,3,0,2.5
+#1 Hyzer,7,3,0,4
+Glory,7,5,0,3
+Huia,7,5,0,2
+Votum,7,5,0,3
+Stalker,7,5,-1,2
+FD1,7,4,0,2
+Helio Vela,7,4,-0.5,3
+FD2 (OOP),7,4,0,2
+Eagle,7,4,-1,3
+Teebird,7,5,0,2
+Explorer,7,5,0,2
+Cyclone,7,4,-1,2
+Rival,7,5,0,2
+Instinct,7,5,0,2
+Barbarian,7,5,0,2
+Fu,7,5,0,2
+Athena,7,5,0,2
+Cookie,7,5,0,2
+Strike,7,5,0,2
+Brazos,7,5,0,2
+Trinity,7,5,0,2
+XL,7,4,-2,1
+Clash,6.5,4,-1,2
+Exodus,7,5,-0.5,2
+Sycamore,7,5,0,1
+Mermaid,7,4,-1,2
+Vela,7,4,-1.5,2
+TL,7,5,-1,1
+Python,7,3,-1,2
+Centurion,7,5,-1,1.5
+Grackle,7,5,-1,2
+Frio,7,5,-1,1
+Oracle,7,5,-2,2
+Dream Weaver,7,5,-1,1.5
+JLS,7,5,-1,1
+Sabre,7,5,-1,1
+Valley,7,5,-1,1
+FD,7,6,0,1
+Fairway Disc,7,6,-1,1
+Rhythm,7,5,-2,1
+Cicada,7,6,-1,1
+Brave,7,6,-1,2
+Hawkeye,7,5,-1,1
+Maverick,7,4,-1.5,2
+Leopard3,7,5,-2,1
+Vamp,7,5,-2,1
+Soda,7,5,-2,2
+Sting,7,5,-2,1
+River,7,7,-1,1
+Seer,7,5,-2,1
+Patriot,7,5,-2,1
+Kraken,7,5,-2,1
+Swift,7,5,-2,1
+Mockingbird,7,5,-2,1
+Drift,7,5,-2,1
+Vortex,7,6,-2,1
+Guadalupe,7,6,-2,2
+IT,7,6,-2,1
+Cosmos,7,5,-2,1
+Maul,7,7,-2,1
+Underworld,7,6,-3,1
+Swift Fox,7,5,-3,1
+View,7,6,-3.5,1
+Millet,7,6,-3,1
+Marlin,7,5,-4,1
+Genius,7,5,-4,1
+Galleon,6,3,0,5
+Viper,6,4,1,5
+Whippet,6,3,1,5
+Moab,6,4,1,5
+Ram,6,4,1,4
+Demon,6,3,0,4
+Xtreme,6,3,1,4
+Badger,6,3,0,4
+Resistor,6.5,4,0,3.5
+Kaxe (Old - OOP),6,4,0,3
+#1 Hookshot,6,4,0,3
+Styder,6,4,0,3
+Trident,6,4,-0.5,3
+Kaxe (Retooled),6,5,0,2
+Kaxe Z (OOP),6,5,0,2
+River Pro (OOP),6,5,0,2
+Magician,6,4,0,2
+Gazelle,6,4,0,2
+M Model S,6,4,0,3
+Andro C,6,4,-1,2
+Pure OG,6,4,-1,2
+Core,6,5,-0.5,1
+Zombee,6,4,-1,1
+Polaris LS,6,4,-1,1
+Servo,6.5,5,-1,2
+The Eye,6,5,-1,1
+Crave,6.5,5,-1,1
+Squall,6,4,-1,1
+Cheetah,6,4,-2,2
+Inspire (OOP),6.5,5,-1.5,1
+#1 Driver,6,4,-2,2
+Andro C (Retooled),6,4,-2,1
+Switch (OOP),6.5,5,-1.5,1
+Leopard,6,5,-2,1
+Relay,6,5,-2,1
+Jiao,6,5,-2,1.5
+Stig,6,5,-2,1
+Glide,6,5,-3,2
+Pelican,6,5,-3,1
+Ascend,6,5,-3,0.5
+Tex,6,5,-3,1
+Signal,6,5,-3,1
+Tremor,6,5,-4,1
+Justice,5,1,0.5,4
+Croc,5.5,2,0,5
+Deflector,5,3.5,0,4
+Caiman,5.5,2,0,4
+MX-1,5,3,0,4
+Mutant,5,3,0,4
+Gator,5,2,0,3
+Drone,5,3,1,4
+Recluse,5,3,0,4
+Beech,5,2,0,3
+Walker,5,3,0,4
+MD5,5,3,0,4
+Swarm,5,3,0,4
+Gator3,5,2,0,3
+Sentinel,5,4,0,4
+Obex,5,4,0,3
+Pursuit,5,3,0,3
+Mango,5,4,0,4
+MX-2,5,4,0,3
+Hornet,5,5,0,4
+Runway,5,4,0,3.5
+Fugitive (Supreme),5,3,0,4
+Roc X3,5,4,0,3.5
+M1,5,4,0,3
+Warrior (Gateway),5,4,0,3
+Mortar,5,2,0,3
+Pyro,5,4,0,2.5
+Buzzz OS,5,4,0,3
+Method,5,5,0,3
+Verdict,5,4,0,3.5
+Malta,5,4,1,3
+Anchor,5,4,0,3
+Bard,5,4,0,3
+Inca,5,5,0,3
+Ultra,5,3,0,3
+Nord,5,4,0,3
+MD4,5,4,0,3
+RA,5,4,0,2.5
+Solstice,5,4,0,3
+Bobcat,5,4,0,2.5
+Rise,5,4,0,2
+Cardinal,5,4,0,2.5
+Supreme EMac Truth,5,5,0,3
+M2,5,4,0,2
+Quake,5,3,0,3
+Nebula,5,4,-0.5,2
+Middy,5,5,0,3
+Wall Cloud,5,5,0,3
+Silicon,5,4,0,3
+Interceptor,5,3,0,3
+Amulet,5,4,1,3
+Wasp,5,3,0,2
+Taco,5,5,0,2
+"Truth, EMAC",5,5,0,2
+Trust,5,5,0,2
+Roc3,5,4,0,3
+Mace,5,5,0,2
+Pine,5,4,0,2
+Prophecy,5,5,0,2
+Kui,5,5,0,2.5
+Kotuku,5,5,0,2
+Valor,5,5,0,2
+Addax,5,5,0,2
+Magnolia,5,5,0,2
+Zheng,5,5,0,2
+Mid-Disc3,5,5,0,2
+Archive,5,5,0,2
+Nautilus,5,5,0,2
+Houston,5,5,0,2
+Reactor,5,5,-0.5,1.5
+Guava,5,5,0,2
+Compass,5,5,0,1
+Fugitive,5,5,-.5,1.5
+Shark3,5,4,0,2
+Avatar,5,4,0,2
+Midari,5,3,0,1
+Aftershock,5,4,0,2
+Cro,5,3,0,2
+Chariot,5,5,0,1
+MD3,5,5,0,1
+Pathfinder,5,5,0,1
+MR-5 Skylark,5,4,0,2
+Addax Reborn,5,5,0,1
+Mustang,5,5,0,2
+Buzzz GT,5,5,0,1
+Nimbus,5,5,0,1.5
+Lion,5,4,0,2
+Matrix,5,4,-1,2
+Truth,5,5,-1,1
+Buzzz,5,4,-1,1
+Rift,5,4,-1,1.5
+Atlas,5,4,0,1
+KGB,5,5,-1,1
+Hex,5,5,-1,1
+Apollo,5,5,-1,2
+Texas Ranger,5,5,-1,1
+Berry,5,5,-1,1
+Warship,5,6,0,1
+Jay,5,4,0,1
+MX-3,5,4,0,1
+Sling,5,5,0,1
+Skeeter,5,5,-1,1
+Gauge,5,5,0,1
+Launch,5,5,-1,2
+Anubis,5,5,0,0
+MD1,5,6,0,0
+Supra,5,5,0,1
+Impact,5,5,-2,2
+M3,5,4,0,1
+Mako3,5,5,0,0
+Echo,5,5,-1.5,1
+Evidence,5,5,-1,0
+Buzzz SS,5,4,-2,1
+Claymore,5,5,-1,1
+Element,5,5,-1,1
+Tomahawk,5,6,0,0
+I-One,5,5,0,0
+Lucky,5,5,-2,1
+Spruce,5,4,-1,2
+Mana,5,5,-2,1
+Bearkat,5,5,-2,1
+Dune,5,5,-1,0
+Fuse,5,6,-1,0
+Svea,5,6,-1,0
+Wombat3,5,6,-1,0
+M4,5,5,-1,1
+Ibex,5,4,-1,1
+Origin,5,5,-1,1
+Detour,5,5,-2,1
+Peace Train,5,4,-2,1
+Cherry,5,5,-2,1
+Warant,5,5,-2,0
+Panther,5,4,-2,1
+Leviathan,5,4,-4,0
+Brontosaurus,5,5,-1,.5
+Dragonfly,5,4,-3,1
+Tursas,5,5,-2,1
+Lobster,5,5,-3,1
+Patrol,5,5,-3,1
+Pirate,5,6,-2,0
+Meteor,5,5,-3,1
+Manta,5,5,-2,1
+Lone Wolf,5,5,-3,1
+Mystic,5,5,-3,0
+Khonsu,5,5,-3,0
+Uplink,5,5,-3,0.5
+Stratus,5,4,-4,1
+Archer,5,4,-4,1
+Rollo,5,6,-4,1
+Paradox,5,4,-4,0
+Flip,5,6,-4,1
+Anvil,4,2,0,4
+Crossbow,4,1.5,.5,4
+Baobab,4,0,1,3
+Toro,4,2,1,3
+Zone OS,4,2,1,5
+Peppermint,4,2,0,4
+Sumo,4,2,0,4
+A1,4,2,0,5
+Stego,4,0,1,4
+Harp,4,3,0,3
+Zone,4,3,0,3
+Tactic,4,2,0,3
+Entropy,4,3,0,3
+Crag,4,3,0,3.5
+Shockwave,4,2,0,3
+Mint,4,3,0,3
+Temple,4,3,0,3
+Savior,4,4,0,3
+Horny Toad,4,3,0,3
+A2,4,2,0,4
+Zone GT (Banger Top),4,3,0,3
+Harpoon,4,3,0,2
+Golem,4,3,0,2.5
+Jarn,4.5,3,0,3
+Angler,4,3,0,3
+Distortion,4,3,0,3
+Tempo,4,4,0,2.5
+Kea,4,3,0,3
+Culprit,4,2,0,3.5
+Owl,4,3,0,3
+Hellbender (Razorback),4,3,0,3
+Artemis,4,4,0,3
+A3,4,3,0,3
+Roc,4,4,0,3
+Ghost,4,5,0,3
+Suspect,4,3,0,3
+Maestro,4,3,0,2
+Rat,4,2,0,2
+Grizzly,4,4,0,2
+Fuji,4,4,0,2
+Yao,4,4,0,2
+Hellbender,4,4,0,2
+Gatekeeper,4,5,0,2
+Shark,4,4,0,2
+Moose,4,5,0,2
+Walrus,4,5,0,3
+Arrowhead,4,3,0,1
+A4,4,3,-1,3
+MD2,4,5,0,2
+Warrior (Viking),4,4,0,2
+Gote,4,5,0,1
+Alien,4,2,0,1
+A5,4,3,0,2
+VRoc,4,4,0,1
+Axe,4,3,0,1
+Coyote,4,5,0,1
+Tailor,4,4,0,1
+Mako,4,5,0,0
+Hawk,4,3,-2,2
+MD,4,5,0,0
+Aurora/QMS,4,5,0,0
+Piwakawaka,4,5,0,0
+Comet,4,5,-2,1
+Bounty,4,5,-1.5,.5
+M Model US,4,5,-1,1
+Shu,4,5,-2,1
+Tangent,4,4,-.5,.5
+Theory,4,4,-1.5,1
+Peach,4,5,-2,1
+BB6,4,5,-2,1
+Stari,4,4,-2,0
+Vertex,4,4,-2,0.5
+Alias,4,4,-1,1
+Caribou,4,5,-3,1
+Sol,4,5,-3,0
+Kon Tiki,4,5,-3,0
+Pearl,4,6,-4,0
+Cobra,4,5,-2,2
+Stingray,4,5,-3,1
+Wolf,4,3,-4,1
+Sockibomb Slammer,3,1,.5,4
+Bull Snake,3,2,0,4
+Slammer,3,2,0,3
+Devil Hawk,3,3,0,4
+Stabilizer,3,3.5,0,3
+War Spear,3,3,0,2
+Raze,3,2,0,3
+P Model OS,3,4,0,3
+Breaker,3,3,0,3
+Jokeri,3,3,1,2
+Chief OS,3,3,0,2
+Copperhead,3,4,0,2
+Electron Stabilizer,3,3,0,2.5
+Houdini,3,3,0,3
+AviarX3,3,2,0,3
+JokeriX,3,3,1,2
+Wild Thing,3,3,0,2.5
+Credo,3,2,0,3
+P3,3,2,0,3
+P3X,3,2,0,3
+The Crater,3,2,0,3
+Ruin,3,3,0,3
+PA1,3,3,0,2.5
+Khan,3,2,0,2
+Lasso,3,3,0,2
+P3X (new),3,2,0,3
+Wings,3,3,0,2
+Jack Rabbit,3,3,0,3
+Penny Putter (Premium),3,4,0,2
+PX-3,3,3,0,2
+PA-3 Sparrow,3,3,0,2
+Particle,3,3,0,2.5
+Reko X,3,3,0,2
+Crown,3,4,0,1
+PA2,3,3,0,2
+Classic Roc,3,3,0,2
+Kratos,3,3,0,3
+Envy,3,3,0,2
+Chief,3,3,0,1
+Hydra,3,3,0,2
+Manzanita,3,3,0,2
+Muse,3,3,0,2
+Stud,3,3,0,2
+Tomb,3,4,0,1
+Origo,3,4,0,1
+Ion,2.5,3,0,1.5
+Maiden,3,4,0,1
+Marshal,3,4,0,1
+Arowana,3,3,-1,2
+Benny,3,4,0,2
+Luna,3,3,0,3
+Sonar,3,4,0,2
+Popcorn,3,3,0,1
+Alter,3,3,0,1
+Aviar3,3,2,0,2
+Logic,3,3,0,1
+Sensei,3,3,0,1
+Alpaca,3,3,0,1
+Madrone,3,3,0,1
+PA3,3,3,0,1
+Peace Frog,3,3,0,1
+Praxis,3,3,0,1
+Reko,3,3,0,1
+Ruru,3,3,0,1
+P Model S,3,5,0,2
+Bullfrog,3,1,0,1
+Shield,3,3,0,1
+Splash,3,3,0,1
+Penny Putter (Victor),3,5,-1,1
+Invader,3,2,0,1
+Sparta,3,3,0,.5
+Yi,3,3,0,0
+Anode,2.5,3,0,.5
+Wren,3,3.5,-0.5,1
+Dart,3,4,0,0
+Proxy,3,3,-1,.5
+Zeppelin,3,5,-1,0
+P Model US,3,5,-1,1
+Candy,3,3,-1,1
+Surf,3,4,-1,1
+Swan 2,3,3,-1,0
+Koi,3,4,-2,0
+Pure,3,3,-1,1
+Aero,3,6,0,0
+Yan,3,6,0,0
+Cohort,3.5,4,0,1
+PA4,3,3,-1,1
+Shadowplay,3,3,-2,.5
+Shaman,3,3,-1,1
+Swan 1 Reborn,3,3,-1,0
+PA5,3,4,-2,0.5
+Deputy,3,4,-1.5,0
+Wedge,3.5,3,-3,1
+Narwhal,3,3,-2,0
+Tui,3,4,-1,0
+Spin,2.5,4,-2,0
+Colt,3,4,-1,1
+Fierce,3,4,-2,0
+Ponderosa,3,4,-2,0
+Zeal,3,4,-2,0
+XD,3,4,-1,1
+Mirage,3,4,-3,0
+Kang,3,5,-2,0
+Gavel,3,5,-2,.5
+Ruby,3,5,-3,1
