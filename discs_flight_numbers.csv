@@ -396,6 +396,7 @@ Valkyrie,9,4,-2,2
 Bandit,9,5,-2,1
 Hu,9,5,-2,2
 Impulse,9,5,-3,1
+Shift,9,5,-3,1
 Jade,9,6,-2,1
 Hatchet,9,6,-2,1
 Sidewinder,9,5,-3,1
@@ -505,6 +506,7 @@ Exodus,7,5,-0.5,2
 Sycamore,7,5,0,1
 Mermaid,7,4,-1,2
 Vela,7,4,-1.5,2
+Idog,7,5,-0.5,2
 TL,7,5,-1,1
 Python,7,3,-1,2
 Centurion,7,5,-1,1.5
@@ -517,7 +519,6 @@ Sabre,7,5,-1,1
 Valley,7,5,-1,1
 FD,7,6,0,1
 Fairway Disc,7,6,-1,1
-Rhythm,7,5,-2,1
 Cicada,7,6,-1,1
 Brave,7,6,-1,2
 Hawkeye,7,5,-1,1
@@ -526,6 +527,8 @@ Leopard3,7,5,-2,1
 Vamp,7,5,-2,1
 Soda,7,5,-2,2
 Sting,7,5,-2,1
+Rhythm,7,5,-2,1
+Nuance,7,5,-2,1
 River,7,7,-1,1
 Seer,7,5,-2,1
 Patriot,7,5,-2,1
@@ -640,6 +643,7 @@ Interceptor,5,3,0,3
 Amulet,5,4,1,3
 Wasp,5,3,0,2
 Taco,5,5,0,2
+Crux,5,4,0,2
 "Truth, EMAC",5,5,0,2
 Trust,5,5,0,2
 Roc3,5,4,0,3
@@ -759,6 +763,7 @@ Savior,4,4,0,3
 Horny Toad,4,3,0,3
 A2,4,2,0,4
 Zone GT (Banger Top),4,3,0,3
+Drop,4,3,0,3
 Harpoon,4,3,0,2
 Golem,4,3,0,2.5
 Jarn,4.5,3,0,3
