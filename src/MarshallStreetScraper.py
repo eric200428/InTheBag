@@ -1,8 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
-
-# Set pandas option to display all rows
+import sqlite3
 
 # URL of the page to scrape
 url = "https://www.marshallstreetdiscgolf.com/flightguide"
@@ -28,7 +27,7 @@ for disc in discs:
     fade = disc['data-fade']        # Extract fade from data-fade attribute
 
     # Append the extracted data to the disc_data list
-    disc_data.append([disc_name, speed, glide, turn, fade])  # No brand for drivers
+    disc_data.append([disc_name, speed, glide, turn, fade])
 
 # Find all div elements with the class 'putter-child pc-entry' which contain flight numbers for putters
 putters = soup.find_all('div', class_='putter-child pc-entry')
@@ -44,11 +43,38 @@ for putter in putters:
     # Append the extracted data to the disc_data list
     disc_data.append([putter_name, speed, glide, turn, fade])
 
-# Create a DataFrame to organize the data, adding a 'Brand' column for both discs and putters
+# Create a DataFrame to organize the data
 df = pd.DataFrame(disc_data, columns=['Disc Name', 'Speed', 'Glide', 'Turn', 'Fade'])
 
-# Save the DataFrame to a CSV file
-df.to_csv('marshall_street_flight_numbers.csv', index=False)
+# Connect to the SQLite database
+db_path = '../discs.db'
+conn = sqlite3.connect(db_path)
+cursor = conn.cursor()
 
-# Display the DataFrame
-print(df)
+# Loop through the DataFrame and update the corresponding discs in the database
+for index, row in df.iterrows():
+    disc_name = row['Disc Name']
+    speed = row['Speed']
+    glide = row['Glide']
+    turn = row['Turn']
+    fade = row['Fade']
+    
+    # Update the corresponding disc in the discs table
+    cursor.execute('''
+        UPDATE discs
+        SET speed = ?, glide = ?, turn = ?, fade = ?
+        WHERE model = ?
+    ''', (speed, glide, turn, fade, disc_name))
+
+# Commit the changes
+conn.commit()
+
+# Verify the update by querying some data
+query = "SELECT * FROM discs LIMIT 5"
+result = pd.read_sql(query, conn)
+
+# Close the connection
+conn.close()
+
+# Display the result to check the data
+print(result)
