@@ -38,8 +38,6 @@ class DiscCanvas(QWidget):
             disc_name = row[1]  # Disc model name
             flight_details = f"Spd: {row[2]}\nGld: {row[3]}\nTrn: {row[4]}\nFde: {row[5]}"  # Flight details
 
-            print(f"Drawing disc: {disc_name} at position ({x_pos}, {y_pos})")  # Debugging print for each disc
-
             # Draw disc (circle)
             rect = QRectF(x_pos, y_pos, disc_radius * 2, disc_radius * 2)
             painter.setBrush(QBrush(QColor("lightGray")))  # Using QColor for the light gray color
@@ -77,8 +75,7 @@ class DiscCanvas(QWidget):
             if a0 is not None and rect.contains(a0.pos()):  # Use a0 instead of event to avoid the warning
                 # Toggle the flipped state of the disc
                 self.flipped_states[index] = not self.flipped_states.get(index, True)
-                print(f"Flipping disc at index {index}. New state: {self.flipped_states[index]}")
-
+                
                 # Trigger a repaint to show the updated state
                 self.update()
 

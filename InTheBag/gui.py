@@ -52,12 +52,8 @@ class DiscLookupApp(QWidget):
         manufacturer = self.manufacturer_input.text().strip()
         model = self.model_input.text().strip()
 
-        print(f"Querying for Manufacturer: {manufacturer}, Model: {model}")  # Debugging print
-
         # Query database for disc results
         results = execute_query(manufacturer, model)
-
-        print(f"Results: {results}")  # Debugging print to see what is returned from the database
 
         if results:
             # Pass results to canvas to draw discs

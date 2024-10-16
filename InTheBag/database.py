@@ -32,12 +32,9 @@ def execute_query(manufacturer, model):
 
         query += " ORDER BY manufacturers.manufacturer, discs.model;"
 
-        print(f"Executing query: {query} with params: {params}")  # Debugging print for the query
-
         cursor.execute(query, params)
         results = cursor.fetchall()
 
-        print(f"Query returned {len(results)} results")  # Debugging print to see how many results are returned
         return results
 
     except Exception as e:
