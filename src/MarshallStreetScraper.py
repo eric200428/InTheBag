@@ -1,13 +1,15 @@
 import requests
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, Tag
 import pandas as pd
 import sqlite3
+import os
 
 # URL of the page to scrape
 url = "https://www.marshallstreetdiscgolf.com/flightguide"
 
 # Send a GET request to fetch the page content
 response = requests.get(url)
+response.raise_for_status()  # Ensure the request was successful
 
 # Parse the HTML content using BeautifulSoup
 soup = BeautifulSoup(response.content, 'html.parser')
@@ -15,66 +17,62 @@ soup = BeautifulSoup(response.content, 'html.parser')
 # Create an empty list to store disc data
 disc_data = []
 
-# Find all div elements with the class 'disc-item' which contain flight numbers for drivers and midranges
+# Find all div elements with the class 'disc-item' which contain flight numbers
 discs = soup.find_all('div', class_='disc-item')
 
-# Loop through each disc element and extract the relevant data
+# Extract data from each disc
 for disc in discs:
-    disc_name = disc['data-title']  # Extract disc name from data-title attribute
-    speed = disc['data-speed']      # Extract speed from data-speed attribute
-    glide = disc['data-glide']      # Extract glide from data-glide attribute
-    turn = disc['data-turn']        # Extract turn from data-turn attribute
-    fade = disc['data-fade']        # Extract fade from data-fade attribute
+    if isinstance(disc, Tag):  # Ensure it's a valid tag
+        disc_name = disc.get('data-title', 'Unknown')  
+        speed = disc.get('data-speed', '0')  
+        glide = disc.get('data-glide', '0')  
+        turn = disc.get('data-turn', '0')  
+        fade = disc.get('data-fade', '0')  
 
-    # Append the extracted data to the disc_data list
-    disc_data.append([disc_name, speed, glide, turn, fade])
+        disc_data.append([disc_name, speed, glide, turn, fade])
 
 # Find all div elements with the class 'putter-child pc-entry' which contain flight numbers for putters
 putters = soup.find_all('div', class_='putter-child pc-entry')
 
-# Loop through each putter element and extract the relevant data
+# Extract data from each putter
 for putter in putters:
-    putter_name = putter['data-putter']  # Extract putter name
-    speed = putter['data-speed']         # Extract speed from data-speed attribute
-    glide = putter['data-glide']         # Extract glide from data-glide attribute
-    turn = putter['data-turn']           # Extract turn from data-turn attribute
-    fade = putter['data-fade']           # Extract fade from data-fade attribute
+    if isinstance(putter, Tag):  # Ensure it's a valid tag
+        putter_name = putter.get('data-putter', 'Unknown')  
+        speed = putter.get('data-speed', '0')  
+        glide = putter.get('data-glide', '0')  
+        turn = putter.get('data-turn', '0')  
+        fade = putter.get('data-fade', '0')  
 
-    # Append the extracted data to the disc_data list
-    disc_data.append([putter_name, speed, glide, turn, fade])
+        disc_data.append([putter_name, speed, glide, turn, fade])
 
 # Create a DataFrame to organize the data
 df = pd.DataFrame(disc_data, columns=['Disc Name', 'Speed', 'Glide', 'Turn', 'Fade'])
 
-# Connect to the SQLite database
-db_path = '../discs.db'
-conn = sqlite3.connect(db_path)
-cursor = conn.cursor()
+# Check if the DataFrame is empty
+if df.empty:
+    print("No data scraped. Exiting program.")
+else:
+    # Connect to the SQLite database
+    db_path = os.path.abspath("discs.db")
+    conn = sqlite3.connect(db_path)
+    cursor = conn.cursor()
 
-# Loop through the DataFrame and update the corresponding discs in the database
-for index, row in df.iterrows():
-    disc_name = row['Disc Name']
-    speed = row['Speed']
-    glide = row['Glide']
-    turn = row['Turn']
-    fade = row['Fade']
-    
-    # Update the corresponding disc in the discs table
-    cursor.execute('''
-        UPDATE discs
-        SET speed = ?, glide = ?, turn = ?, fade = ?
-        WHERE model = ?
-    ''', (speed, glide, turn, fade, disc_name))
+    # Update database only if data exists
+    for index, row in df.iterrows():
+        cursor.execute('''
+            UPDATE discs
+            SET speed = ?, glide = ?, turn = ?, fade = ?
+            WHERE model = ?
+        ''', (row['Speed'], row['Glide'], row['Turn'], row['Fade'], row['Disc Name']))
 
-# Commit the changes
-conn.commit()
+    # Commit and verify update
+    conn.commit()
 
-# Verify the update by querying some data
-query = "SELECT * FROM discs LIMIT 5"
-result = pd.read_sql(query, conn)
+    query = "SELECT * FROM discs LIMIT 5"
+    result = pd.read_sql(query, conn)
 
-# Close the connection
-conn.close()
+    # Close the connection
+    conn.close()
 
-# Display the result to check the data
-print(result)
+    # Display the result to check the data
+    print(result)

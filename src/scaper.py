@@ -2,6 +2,7 @@ import pandas as pd
 import sqlite3
 from io import StringIO
 import requests
+import os
 
 # Download the CSV file (using your URL)
 url = 'https://www.pdga.com/technical-standards/equipment-certification/discs/export'
@@ -31,7 +32,7 @@ df_merged = pd.merge(df_select, manufacturers_df, on='manufacturer', how='left')
 df_final = df_merged[['manufacturer_id', 'model', 'Approved Date']]
 
 # Connect to SQLite database (or create it if it doesn't exist)
-db_path = '../discs.db'
+db_path = 'discs.db'
 conn = sqlite3.connect(db_path)
 
 # Export the manufacturers DataFrame to SQLite database
